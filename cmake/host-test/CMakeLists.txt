@@ -60,6 +60,7 @@ target_link_libraries ( moai-test-runner
   rt
   ${OpenGL_LIBRARIES}
   ${GLUT_LIBRARIES}
+  GL
 )
 endif ( BUILD_LINUX )
 

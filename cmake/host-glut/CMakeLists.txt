@@ -59,6 +59,8 @@ target_link_libraries ( moai
   rt
   ${OpenGL_LIBRARIES}
   ${GLUT_LIBRARIES}
+  GL
+  dl
 )
 endif ( BUILD_LINUX )
 
